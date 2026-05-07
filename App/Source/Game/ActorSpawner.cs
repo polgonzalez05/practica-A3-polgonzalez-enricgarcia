@@ -30,7 +30,7 @@ namespace TcGame
     }
     public void SpawnActor()
     {
-     
+
     }
   }
 }

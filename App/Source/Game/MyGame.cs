@@ -27,7 +27,7 @@ namespace TcGame
     public void Init()
     {
       background = Engine.Get.Scene.Create<Background>();
-    
+      Engine.Get.Scene.Create<Player>();
     }
        
     public void DeInit()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\polgo\\Documents\\Programacion\\__Practicas\\A3-Student\\A3-Student\\App\\App.csproj": {}
+    "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\polgo\\Documents\\Programacion\\__Practicas\\A3-Student\\A3-Student\\App\\App.csproj": {
+    "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\polgo\\Documents\\Programacion\\__Practicas\\A3-Student\\A3-Student\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\polgo\\Documents\\Programacion\\__Practicas\\A3-Student\\A3-Student\\App\\App.csproj",
+        "projectPath": "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
         "packagesPath": "C:\\Users\\polgo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\polgo\\Documents\\Programacion\\__Practicas\\A3-Student\\A3-Student\\App\\obj\\",
+        "outputPath": "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\polgo\\AppData\\Roaming\\NuGet\\NuGet.Config"
