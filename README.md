@@ -1,4 +1,4 @@
-L'Assetjament d'Ormuz (1622)
+** L'Assetjament d'Ormuz (1622)
 
 
 Al 1622 la fortalesa de Nossa Senhora da Vitória, a l'illa d'Ormuz, era la "clau" del Golf Pèrsic. Qui controlava Ormuz, controlava el flux d'espècies i seda cap a Europa i de les perles iranianes que eren un dels objectes més cobejats pels nobles. Fins al moment l'estret d'Ormuz i l'illa d'Ormuz estava controlada per la Unió Ibèrica una unió de facto entre la monarquia hispànica i el regne de Portugal.
