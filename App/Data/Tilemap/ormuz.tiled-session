@@ -1,0 +1,44 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "sin nombre.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Island.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sin nombre.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 932,
+                "y": 716
+            }
+        }
+    },
+    "last.exportedFilePath": "C:/Users/marco/Desktop/A3-Student/App/Data/Tilemap",
+    "last.imagePath": "C:/Users/marco/Desktop/A3-Student/App/Data/Textures",
+    "map.lastUsedExportFilter": "Archivos CSV (*.csv)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "openFiles": [
+        "Island.tsx",
+        "sin nombre.tmx"
+    ],
+    "project": "ormuz.tiled-project",
+    "recentFiles": [
+        "Island.tsx",
+        "sin nombre.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}

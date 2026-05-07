@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "r+7pzWpWvOk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\polgo\\Documents\\Programacion\\__Practicas\\A3-Student\\A3-Student\\App\\App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\polgo\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\polgo\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\polgo\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\polgo\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\polgo\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\polgo\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
