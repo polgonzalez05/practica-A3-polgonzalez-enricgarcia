@@ -28,6 +28,7 @@ namespace TcGame
     {
       background = Engine.Get.Scene.Create<Background>();
       Engine.Get.Scene.Create<Player>();
+      Engine.Get.Scene.Create<PirateSpawner>();
     }
        
     public void DeInit()

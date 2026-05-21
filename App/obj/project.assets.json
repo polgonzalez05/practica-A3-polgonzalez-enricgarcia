@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pol\\.nuget\\packages\\": {}
+    "C:\\Users\\polgo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+      "projectUniqueName": "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
-      "packagesPath": "C:\\Users\\pol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\obj\\",
+      "projectPath": "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+      "packagesPath": "C:\\Users\\polgo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\polgo\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\polgo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -495,7 +495,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -522,7 +523,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pol\\.dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\polgo\\.dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

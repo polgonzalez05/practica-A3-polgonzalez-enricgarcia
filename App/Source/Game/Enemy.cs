@@ -6,6 +6,9 @@
     {
       OnDestroy += Explode;
     }
+    public virtual void TakeDamage(int damage)
+    {
+    }
 
     private void Explode(Actor actor)
     {

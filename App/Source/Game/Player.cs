@@ -53,7 +53,6 @@ namespace TcGame
     public void Shoot()
     {
       Bullet bullet = Engine.Get.Scene.Create<Bullet>();
-
       bullet.Position = Position + Forward * 40.0f;
       bullet.Forward = Forward;
       bullet.DamagePlayer = false;

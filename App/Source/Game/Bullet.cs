@@ -8,9 +8,10 @@ namespace TcGame
   public class Bullet : StaticActor
   {
     public bool DamagePlayer = false;
-    public float LifeTime = 5.0f;
+    public float LifeTime = 100.0f;
     public Vector2f Forward = new Vector2f(0.0f, -1.0f);
-    public float Speed = 400.0f;
+    public float Speed = 800.0f;
+    public float Damage = 10.0f;
 
     public Bullet()
     {
@@ -53,7 +54,7 @@ namespace TcGame
         {
           if (enemy.GetGlobalBounds().Intersects(GetGlobalBounds()))
           {
-            enemy.Destroy();
+            enemy.TakeDamage((int)Damage);
             Destroy();
           }
         }
