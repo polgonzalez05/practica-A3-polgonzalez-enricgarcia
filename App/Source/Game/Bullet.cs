@@ -10,7 +10,7 @@ namespace TcGame
     public bool DamagePlayer = false;
     public float LifeTime = 100.0f;
     public Vector2f Forward = new Vector2f(0.0f, -1.0f);
-    public float Speed = 800.0f;
+    public float Speed = 300.0f;
     public float Damage = 10.0f;
 
     public Bullet()
@@ -56,6 +56,7 @@ namespace TcGame
           {
             enemy.TakeDamage((int)Damage);
             Destroy();
+            break;
           }
         }
       }

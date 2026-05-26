@@ -1,7 +1,7 @@
 ﻿using SFML.Window;
 using SFML.Graphics;
 using SFML.System;
-using System; 
+using System;
 
 namespace TcGame
 {
@@ -9,22 +9,25 @@ namespace TcGame
     {
         Idle,
         Pursue,
-        Withdrawal 
+        Withdrawal
     }
+
     public class Pirate : Enemy
     {
         private States state;
-        private float RotSpeed = 2f; // Velocitat de rotació angular.
-        private float Speed = 5f; //  Velocitat de moviment.
-        private float Cooldown = 2.0f; // Temps de descans entre dispar i dispar.
-        private float HitPoints = 15f; // Punts de vida abans de ser destruïts.
-        private float Damage = 1f; // Quantitat de dany que fan les seves bales en impactar
+        private float RotSpeed = 2f;
+        private float Speed = 5f;
+        private float Cooldown = 2.0f;
+        private float HitPoints = 15f;
+        private float Damage = 1f;
         private bool isPersian;
 
         public Pirate()
         {
             Sprite = newRandomSprite();
+            Center();
         }
+
         private void Idle()
         {
             Random tiempo = new Random();
@@ -32,25 +35,21 @@ namespace TcGame
 
             Rotation += 300 * random;
         }
+
         private void Pursue()
         {
             Speed *= 2;
             RotSpeed = 1f;
             Cooldown = 1.0f;
             Damage = 0.8f;
-
         }
+
         private void Withdrawal()
         {
             Random tiempo = new Random();
             float random = (float)(tiempo.NextDouble() * 2.0 + 1);
         }
-        private void Explode(Actor actor)
-        {
-            Explosion e = Engine.Get.Scene.Create<Explosion>();
-            e.Position = Position;
-        }
-        
+
         public override void TakeDamage(int damage)
         {
             HitPoints -= damage;
@@ -65,10 +64,17 @@ namespace TcGame
                 Destroy();
             }
         }
+
         public override FloatRect GetLocalBounds()
         {
-            return new FloatRect(Position.X, Position.Y, 14, 460);
+            return new FloatRect(
+                0,
+                0,
+                Sprite.Texture.Size.X,
+                Sprite.Texture.Size.Y
+            );
         }
+
         private Sprite newRandomSprite()
         {
             Random rand = new Random();
