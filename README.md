@@ -1,4 +1,4 @@
-L'Assetjament d'Ormuz (1622)
+# L'Assetjament d'Ormuz (1622)
 
 
 Al 1622 la fortalesa de Nossa Senhora da Vitória, a l'illa d'Ormuz, era la "clau" del Golf Pèrsic. Qui controlava Ormuz, controlava el flux d'espècies i seda cap a Europa i de les perles iranianes que eren un dels objectes més cobejats pels nobles. Fins al moment l'estret d'Ormuz i l'illa d'Ormuz estava controlada per la Unió Ibèrica una unió de facto entre la monarquia hispànica i el regne de Portugal.
@@ -12,25 +12,25 @@ La falta de recursos enviats per la Unió Ibèrica van deixar quasi sol a en Rui
 
 
 
-El joc
+# El joc
 En el joc encarnes Rui Freire d'Andrade que intenta de la millor forma que pot defensar la fortalesa i la ciutat d'Ormuz mentre rep els atacs de l'imperi persa i dels navilis de la companyia de l'Índies orientals.
 
 
 
- Implementació
-Player
+# Implementació
+## Player
 Implementa una classe Player que dibuixi el militar Rui enmig de l'isme d'Ormuz. Aquesta classe ha de ser filla de StaticActor i s'ha de pintar a la capa Middle.
 En un principi per a la imatge de Rui tria de forma aleatòria entre rui1, rui2 i rui3.
 El player roman quiet al centre de l'illa i apunta sempre cap a la fletxa del ratolí.
 Aquest player dispara cada vegada que es fa clic amb el botó esquerre del ratolí, però amb un CoolDown pre-establert que pots modificar amb la funció ChangeCoolDown.
 El player té també una quantitat de HitPoints que van minvant quan rep impactes de les Bullets.
-Bales
+## Bales
 Cada vegada que dispara el jugador s'ha de fer una Bullet a uns pocs píxels del jugador i amb la mateixa direcció de cap a on apunta el jugador. Aquesta classe Bullet fa servir la imatge cannonBall.png
 Aquesta bala es mou a velocitat constant Speed
 Té un LifeTime que fa que alhora la bala desaparegui. (és a dir deixa de pintar-se i deixa d'existir com a actor)
 Si la bala impacta contra un enemic fa un Damage que es resta dels HitPoints de l'enemic
 Si una bala col·lisiona amb una altra bala totes dues s'anul·len i desapareixen.
-Pirates
+## Pirates
 La classe Pirate implementa cadascun dels vaixells enemics que intenten atacar l'illa. La imatge pirata1.png representa els vaixells de l'EIC i la imatge pirata4.png representa els vaixells de l'exercit persa.
 Aquesta classe és filla d 'Enemy, que té implementada una funció que té un Explosion quan es destrueix. Revisa la classe Explosion per entendre com funciona.
 Aquests vaixells tenen diferents propietats que defineixen el seu comportament:
@@ -41,7 +41,7 @@ HitPoins: Punts de vida abans de ser destruïts.
 Damage: Quantitat de dany que fan les seves bales en impactar
 Quan els seus HitPoints arriben a 0 el vaixell i la bala que ha impactat es destrueix deixant un objecte de tipus Explosion al seu lloc.
 Aquests vaixells es poden moure per qualsevol punt de la pantalla excepte entrar a l'illa.
-PirateSpawner
+## PirateSpawner
 La classe PirateSpawner ha de fer aparèixer pirates cada cert temps.
 Aquests pirates s'han de fer en punts aleatoris de la pantalla evitant la zona central de l'illa.
 Comportament dels Pirates
@@ -51,7 +51,7 @@ Implementa una maquina d’estats amb tres estats diferents per al comportament 
 El primer estat van lents amb una direcció aleatòria i una velocitat lenta
 Quan han passat 5 segons incrementen la seva velocitat i canvien el seu rumb i comencen a disparar a una velocitat lenta també
 Si per casualitat arriben a una distancia menor de 300 pixels de la illa canvien el rumb i incrementen la seva velocitat de dispar quan passen 10 segons tornen al primer estat
-Hud
+## Hud
 Crea una classe Hud que mostra la vida que queda a Rui i el nombre d'enemics vençuts
 Escena i GameOver
 En iniciar el Joc volem que surti la portada. Crea una classe Intro que mostri la portada en pantalla
