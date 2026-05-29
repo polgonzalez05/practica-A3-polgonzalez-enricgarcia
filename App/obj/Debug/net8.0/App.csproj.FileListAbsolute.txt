@@ -359,3 +359,4 @@ C:\Users\pol\Documents\GitHub\practica-A3-polgonzalez-enricgarcia\App\obj\Debug\
 C:\Users\pol\Documents\GitHub\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net8.0\Data\Textures\cannonBall.png
 C:\Users\polgo\Documents\GitHub\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net8.0\Data\Textures\cannonBall.png
 C:\Users\polgo\Documents\GitHub\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net8.0\Data\Textures\FX\Explosion.png
+C:\Users\pol\Documents\GitHub\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net8.0\Data\Textures\FX\Explosion.png

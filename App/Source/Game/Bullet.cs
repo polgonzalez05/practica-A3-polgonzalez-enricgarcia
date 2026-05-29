@@ -2,6 +2,7 @@
 using SFML.Window;
 using SFML.System;
 using System.Collections.Generic;
+using System;
 
 namespace TcGame
 {
@@ -36,15 +37,18 @@ namespace TcGame
 
       if (DamagePlayer)
       {
-//        var player = MyGame.Instance.Scene.GetFirst<Plane>();
-//        if (player != null)
-//        {
-//          if (player.GetGlobalBounds().Intersects(GetGlobalBounds()))
-//          {
-//            player.Destroy();
-//            Destroy();
-//          }
-//        }
+        var players = Engine.Get.Scene.GetAll<Player>();
+
+        foreach (Player player in players)
+        {
+          if (player.GetGlobalBounds().Intersects(GetGlobalBounds()))
+          {
+            player.TakeDamage((int)Damage);
+            Console.WriteLine("Player hit. Vida: " + player.HitPoints);
+            Destroy();
+            break;
+          }
+        }
       }
       else
       {

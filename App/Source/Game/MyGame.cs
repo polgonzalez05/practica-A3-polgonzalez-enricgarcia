@@ -24,11 +24,18 @@ namespace TcGame
     private MyGame()
     {
     }
+    public int EnemiesDefeated { get; private set; }
+
+    public void AddEnemyDefeated()
+    {
+      EnemiesDefeated++;
+    }
     public void Init()
     {
       background = Engine.Get.Scene.Create<Background>();
       Engine.Get.Scene.Create<Player>();
       Engine.Get.Scene.Create<PirateSpawner>();
+      hud = Engine.Get.Scene.Create<Hud>();
     }
        
     public void DeInit()

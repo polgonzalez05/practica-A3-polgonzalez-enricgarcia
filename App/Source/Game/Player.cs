@@ -22,6 +22,10 @@ namespace TcGame
       ChangeCoolDown(0.2f);
 
     }
+    public float GetHitPoints()
+    {
+      return HitPoints;
+    }
 
     public override void Update(float dt)
     {
@@ -62,6 +66,7 @@ namespace TcGame
     public void TakeDamage(int damage)
     {
       HitPoints -= damage;
+      Console.WriteLine("Rui recibe daño: " + damage + " vida: " + HitPoints);
 
       if (HitPoints <= 0)
       {
