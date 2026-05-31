@@ -1,21 +1,5 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "+ZmEtoO4uNw=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\pol\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\pol\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
-=======
   "dgSpecHash": "9MhCWd8aflk=",
   "success": true,
   "projectFilePath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
@@ -26,7 +10,16 @@
     "C:\\Users\\enric\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
     "C:\\Users\\enric\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
     "C:\\Users\\enric\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
->>>>>>> Stashed changes
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

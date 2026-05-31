@@ -90,3 +90,4 @@ C:\Users\enric\Desktop\Crea una carpeta\practica-A3-polgonzalez-enricgarcia\App\
 C:\Users\enric\Desktop\Crea una carpeta\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net9.0\Data\Textures\rui2.png
 C:\Users\enric\Desktop\Crea una carpeta\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net9.0\Data\Textures\rui3.png
 C:\Users\enric\Desktop\Crea una carpeta\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net9.0\Data\Textures\cannonBall.png
+C:\Users\enric\Desktop\Crea una carpeta\practica-A3-polgonzalez-enricgarcia\App\bin\Debug\net9.0\Data\Textures\FX\Explosion.png

@@ -34,11 +34,8 @@ namespace TcGame
     {
       background = Engine.Get.Scene.Create<Background>();
       Engine.Get.Scene.Create<Player>();
-<<<<<<< Updated upstream
       Engine.Get.Scene.Create<PirateSpawner>();
       hud = Engine.Get.Scene.Create<Hud>();
-=======
->>>>>>> Stashed changes
     }
        
     public void DeInit()
