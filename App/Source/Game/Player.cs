@@ -7,11 +7,16 @@ namespace TcGame
 {
   public class Player : StaticActor
   {
+<<<<<<< Updated upstream
     private float coolDown = 0.5f;
     private float currentCoolDown = 0.0f;
 
     public int HitPoints = 100;
 
+=======
+    float coolDown = 2f;
+    float hitPoints = 100;
+>>>>>>> Stashed changes
     public Player()
     {
       Layer = ELayer.Middle;
@@ -30,6 +35,7 @@ namespace TcGame
     public override void Update(float dt)
     {
       Follow();
+<<<<<<< Updated upstream
 
       currentCoolDown -= dt;
       if (Mouse.IsButtonPressed(Mouse.Button.Left) && currentCoolDown <= 0.0f)
@@ -90,5 +96,49 @@ namespace TcGame
           throw new Exception("Valor inesperado");
       }
     }
+=======
+      if (coolDown == 0f) 
+      {
+        Shoot();
+      }
+      base.Update(dt);
+      coolDown -= dt;
+      if (coolDown < 0f)
+      {
+        coolDown = 0;
+      }
+    }
+
+    private void Follow()
+    {
+      Speed = 0;
+      Forward = (Engine.Get.MousePos - Position).Normal();;
+      Rotation = (float) Math.Atan2(Forward.Y, Forward.X) * MathUtil.RAD2DEG + 90;
+    }
+
+    private void Shoot()
+    {
+      if (Mouse.IsButtonPressed(Mouse.Button.Left))
+      {
+        Engine.Get.Scene.Create<Bullet>();
+        Console.WriteLine("Bullet Made");
+      }
+      coolDown = 2f;
+    }
+    private Sprite newRandomSprite()
+    {
+      Random rand = new Random();
+      int sprite = rand.Next(0,3);
+      switch (sprite)
+      {
+        case (0):
+          return new Sprite(new Texture("Data/Textures/rui1.png"));
+        case (1):
+          return new Sprite(new Texture("Data/Textures/rui2.png"));
+        default:
+          return new Sprite(new Texture("Data/Textures/rui3.png"));
+      } 
+    } 
+>>>>>>> Stashed changes
   }
 }

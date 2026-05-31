@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj": {}
   },
   "projects": {
@@ -15,16 +16,32 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+        "projectName": "App",
+        "projectPath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+        "packagesPath": "C:\\Users\\enric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\enric\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +58,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "SFML.Net": {
               "target": "Package",
@@ -83,7 +100,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Users\\pol\\.dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Users\\enric\\.dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }

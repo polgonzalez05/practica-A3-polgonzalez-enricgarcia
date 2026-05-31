@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "CSFML/2.5.0": {
         "type": "package",
         "runtimeTargets": {
@@ -455,16 +455,21 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "SFML.Net >= 2.5.0"
     ]
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\pol\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\enric\\.nuget\\packages\\": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
       "projectName": "App",
       "projectPath": "C:\\Users\\pol\\Documents\\GitHub\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
@@ -473,16 +478,26 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+      "projectName": "App",
+      "projectPath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\App.csproj",
+      "packagesPath": "C:\\Users\\enric\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enric\\Desktop\\Crea una carpeta\\practica-A3-polgonzalez-enricgarcia\\App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\enric\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -499,8 +514,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "dependencies": {
           "SFML.Net": {
             "target": "Package",
@@ -541,7 +556,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Users\\pol\\.dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Users\\enric\\.dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }
