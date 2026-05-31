@@ -14,6 +14,7 @@
     {
       Explosion e = Engine.Get.Scene.Create<Explosion>();
       e.Position = Position;
+      PlaySound("explosion",70f);
     }
   }
 }

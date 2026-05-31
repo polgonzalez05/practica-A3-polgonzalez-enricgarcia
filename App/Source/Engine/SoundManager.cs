@@ -16,7 +16,7 @@ namespace TcGame
 
     public void PlaySound(string soundName, float volume = 100.0f)
     {
-      SoundBuffer buffer = new SoundBuffer("Data/Sound"+soundName+".wav");
+      SoundBuffer buffer = new SoundBuffer("Data/Sounds/"+soundName+".wav");
       Sound sound = new Sound(buffer);
       sound.Volume = volume;
       sound.Play();

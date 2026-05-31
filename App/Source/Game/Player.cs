@@ -10,7 +10,7 @@ namespace TcGame
     public float coolDown = 0.5f;
     private float currentCoolDown = 0.0f;
 
-    public int HitPoints = 100;
+    public int HitPoints = 10;
 
     float hitPoints = 100;
 
@@ -39,6 +39,7 @@ namespace TcGame
       {
         Shoot();
         currentCoolDown = coolDown;
+        PlaySound("shot",50f);
       }
 
       base.Update(dt);
